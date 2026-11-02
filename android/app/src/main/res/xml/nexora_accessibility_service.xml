@@ -1,4 +1,3 @@
-
 <accessibility-service
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:description="@string/accessibility_service_description"
@@ -7,4 +6,6 @@
     android:notificationTimeout="100"
     android:canRetrieveWindowContent="false"
     android:canPerformGestures="false"
+    android:canRequestTouchExplorationMode="false"
+    android:canRequestFilterKeyEvents="false"
     android:accessibilityFlags="flagDefault" />
